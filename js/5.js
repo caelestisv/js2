@@ -1,6 +1,6 @@
 document.getElementById("get").onclick=function(){
-    a = Math.round(Math.random()*9+1);
-    b = Math.round(Math.random()*9+1);
+    a = Math.round(Math.random()*8+2);
+    b = Math.round(Math.random()*8+2);
     let rez = prompt(`${a} * ${b}`);
     mult = a * b;
     let p = "";
